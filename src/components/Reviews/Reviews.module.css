@@ -1,0 +1,38 @@
+.reviews {
+  max-width: 1200px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  padding: 30px 20px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  padding: 10px 0;
+}
+
+.author {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.text {
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 22px;
+}
+
+.errorTitle {
+  font-size: 36px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.55);
+}

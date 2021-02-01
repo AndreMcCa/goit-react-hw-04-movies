@@ -1,0 +1,56 @@
+.main {
+  padding: 30px;
+}
+
+.box {
+    max-width: 1200px;
+  
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .title {
+    margin-bottom: 30px;
+  
+    text-align: center;
+    font-size: 36px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+  }
+
+  .loadBox {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .loadMore {
+    width: 200px;
+    height: 50px;
+
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
+    font-size: 18px;
+    letter-spacing: 1px;
+
+    color: #ffffff;
+    background-color: #f83600;
+
+    transition: transform 250ms;
+  }
+
+  .loadMore:hover,
+  .loadMore:focus {
+    transform: scale(1.05);
+  }

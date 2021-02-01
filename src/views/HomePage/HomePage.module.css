@@ -1,0 +1,22 @@
+.main {
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.popularMovies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.title {
+  margin-bottom: 30px;
+
+  text-align: center;
+  font-size: 36px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}

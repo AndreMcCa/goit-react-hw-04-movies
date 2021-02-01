@@ -1,0 +1,41 @@
+.moviesItem {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+
+  /* width: 274px; */
+  width: calc((1200px - 90px) / 4);
+}
+
+.poster {
+  /* height: 417px; */
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+.info {
+  padding: 3px 10px 20px 20px;
+}
+
+.infoTitle {
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.16;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.infoContainer {
+  margin-top: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #ff6b08;
+}

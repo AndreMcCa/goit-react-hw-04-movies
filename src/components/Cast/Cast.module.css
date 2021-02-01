@@ -1,0 +1,41 @@
+.cast {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  width: calc((1200px - 60px) / 4);
+  /* width: 200px; */
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+.title {
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+}
+
+.errorTitle {
+  font-size: 36px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.55);
+}
